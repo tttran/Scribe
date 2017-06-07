@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         activitySpinner.isHidden = true
+        transcriptionTextField.isEditable = false
 
     }
 
