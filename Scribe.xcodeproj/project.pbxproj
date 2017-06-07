@@ -12,6 +12,8 @@
 		E5E33C881EE8716200788084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E33C861EE8716200788084 /* Main.storyboard */; };
 		E5E33C8A1EE8716200788084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E33C891EE8716200788084 /* Assets.xcassets */; };
 		E5E33C8D1EE8716200788084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E33C8B1EE8716200788084 /* LaunchScreen.storyboard */; };
+		E5E33C981EE874EE00788084 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E33C971EE874EE00788084 /* CircleButton.swift */; };
+		E5E33C9A1EE87BF200788084 /* test.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E5E33C991EE87BF200788084 /* test.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E5E33C891EE8716200788084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5E33C8C1EE8716200788084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5E33C8E1EE8716200788084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5E33C971EE874EE00788084 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		E5E33C991EE87BF200788084 /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,40 @@
 		E5E33C811EE8716200788084 /* Scribe */ = {
 			isa = PBXGroup;
 			children = (
+				E5E33C991EE87BF200788084 /* test.m4a */,
+				E5E33C961EE874CD00788084 /* Controller */,
+				E5E33C951EE874C400788084 /* View */,
+				E5E33C941EE874B800788084 /* Model */,
 				E5E33C821EE8716200788084 /* AppDelegate.swift */,
-				E5E33C841EE8716200788084 /* ViewController.swift */,
 				E5E33C861EE8716200788084 /* Main.storyboard */,
 				E5E33C891EE8716200788084 /* Assets.xcassets */,
 				E5E33C8B1EE8716200788084 /* LaunchScreen.storyboard */,
 				E5E33C8E1EE8716200788084 /* Info.plist */,
 			);
 			path = Scribe;
+			sourceTree = "<group>";
+		};
+		E5E33C941EE874B800788084 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E5E33C951EE874C400788084 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5E33C971EE874EE00788084 /* CircleButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E5E33C961EE874CD00788084 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E5E33C841EE8716200788084 /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +126,7 @@
 				TargetAttributes = {
 					E5E33C7E1EE8716200788084 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 44VH4B53WC;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,6 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E33C9A1EE87BF200788084 /* test.m4a in Resources */,
 				E5E33C8D1EE8716200788084 /* LaunchScreen.storyboard in Resources */,
 				E5E33C8A1EE8716200788084 /* Assets.xcassets in Resources */,
 				E5E33C881EE8716200788084 /* Main.storyboard in Resources */,
@@ -136,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E33C981EE874EE00788084 /* CircleButton.swift in Sources */,
 				E5E33C851EE8716200788084 /* ViewController.swift in Sources */,
 				E5E33C831EE8716200788084 /* AppDelegate.swift in Sources */,
 			);
@@ -260,6 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 44VH4B53WC;
 				INFOPLIST_FILE = Scribe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.timothytran.Scribe;
@@ -272,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 44VH4B53WC;
 				INFOPLIST_FILE = Scribe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.timothytran.Scribe;
