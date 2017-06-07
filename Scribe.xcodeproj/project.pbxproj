@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E550DADF1EE88BA000F2604E /* CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550DADE1EE88BA000F2604E /* CancelButton.swift */; };
 		E5E33C831EE8716200788084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E33C821EE8716200788084 /* AppDelegate.swift */; };
 		E5E33C851EE8716200788084 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E33C841EE8716200788084 /* ViewController.swift */; };
 		E5E33C881EE8716200788084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E33C861EE8716200788084 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E550DADE1EE88BA000F2604E /* CancelButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButton.swift; sourceTree = "<group>"; };
 		E5E33C7F1EE8716200788084 /* Scribe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scribe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E33C821EE8716200788084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5E33C841EE8716200788084 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				E5E33C971EE874EE00788084 /* CircleButton.swift */,
+				E550DADE1EE88BA000F2604E /* CancelButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				E5E33C981EE874EE00788084 /* CircleButton.swift in Sources */,
 				E5E33C851EE8716200788084 /* ViewController.swift in Sources */,
 				E5E33C831EE8716200788084 /* AppDelegate.swift in Sources */,
+				E550DADF1EE88BA000F2604E /* CancelButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +338,7 @@
 				E5E33C931EE8716200788084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
