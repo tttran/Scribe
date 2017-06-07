@@ -97,6 +97,7 @@
                     </view>
                     <connections>
                         <outlet property="activitySpinner" destination="ozb-CS-qgv" id="nwE-2c-R5z"/>
+                        <outlet property="statusLabel" destination="qkN-3t-cEQ" id="cbW-fD-NTE"/>
                         <outlet property="transcriptionTextField" destination="zi2-VZ-WCD" id="cO2-hg-lvH"/>
                     </connections>
                 </viewController>

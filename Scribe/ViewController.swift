@@ -17,6 +17,8 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate {
     
     @IBOutlet weak var transcriptionTextField: UITextView!
     
+    @IBOutlet weak var statusLabel: UILabel!
+    
     var recording = false;
     
     
@@ -96,6 +98,7 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate {
     @IBAction func playBtnPressed(_ sender: CircleButton) {
         if (recording == false) {
             recording = true
+            statusLabel.text = "Click again to stop recording"
             activitySpinner.isHidden = false
             activitySpinner.startAnimating()
             
@@ -103,6 +106,7 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate {
         }
         else {
             recording = false
+            statusLabel.text = "PLAY & TRANSCRIBE"
             activitySpinner.stopAnimating()
             activitySpinner.isHidden = true
             stopRecording()
