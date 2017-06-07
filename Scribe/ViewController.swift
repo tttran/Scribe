@@ -32,6 +32,7 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         activitySpinner.isHidden = true
+        transcriptionTextField.isEditable = false
 
     }
 
