@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Extension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>ExtensionUI.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>Scribe.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +22,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>E5CEE36C1EEB34E800ACB4DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E5CEE3751EEB34E800ACB4DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>E5E33C7E1EE8716200788084</key>
 		<dict>
 			<key>primary</key>

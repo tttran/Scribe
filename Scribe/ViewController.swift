@@ -7,9 +7,7 @@
 //
 
 import UIKit
-import Speech
-import AVFoundation
-
+import Intents
 
 
 class ViewController: UIViewController, OEEventsObserverDelegate {
@@ -23,8 +21,17 @@ class ViewController: UIViewController, OEEventsObserverDelegate {
         super.viewDidLoad()
         activitySpinner.isHidden = true
         transcriptionTextField.isEditable = false
+
+        // Ask permission to access Siri
+        INPreferences.requestSiriAuthorization { authorizationStatus in
+            switch authorizationStatus {
+            case .authorized:
+                print("Authorized")
+            default:
+                print("Not Authorized")
+            }
+        }
     }
-    
  
     
     func startListening() {
