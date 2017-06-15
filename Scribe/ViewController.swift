@@ -47,7 +47,11 @@ class ViewController: UIViewController, OEEventsObserverDelegate {
                                   "View",
                                   "Execute",
                                   "Dossier",
-                                  "Logout"]
+                                  "Logout",
+                                  "switch",
+                                  "run",
+                                  "A to Z",
+                                  "Z to A"]
         
         let firstVocabularyName = "FirstVocabulary"
         
